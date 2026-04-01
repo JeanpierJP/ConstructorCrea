@@ -1,11 +1,11 @@
 {
   "name": "construcrea.tecnovedadesweb.site",
   "version": "1.0.0",
-  "description": "Revestimientos Arquitectónicos website",
+  "description": "Revestimientos Arquitect\u00f3nicos website",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server public_html -p 3000 -o",
-    "start": "http-server public_html -p 8080"
+    "dev": "node api.js && http-server public_html -p 3000 -o",
+    "start": "node api.js && http-server public_html -p 8080"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
